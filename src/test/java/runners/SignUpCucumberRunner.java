@@ -7,7 +7,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags = "@Scenario1",
+
+        tags = "@api",
         features = "src/test/resources",
         glue = "stepDefinitions",
         stepNotifications = true,
@@ -17,4 +18,5 @@ import org.junit.runner.RunWith;
         }
 )
 public class SignUpCucumberRunner {
+
 }
